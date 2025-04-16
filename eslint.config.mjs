@@ -4,6 +4,7 @@ import json from "@eslint/json";
 import markdown from "@eslint/markdown";
 import userscripts from "eslint-plugin-userscripts";
 import { defineConfig } from "eslint/config";
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default defineConfig([
   {
@@ -44,4 +45,5 @@ export default defineConfig([
       },
     },
   },
+  eslintConfigPrettier,
 ]);
