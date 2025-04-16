@@ -2,6 +2,7 @@ import js from "@eslint/js";
 import globals from "globals";
 import json from "@eslint/json";
 import markdown from "@eslint/markdown";
+import userscripts from "eslint-plugin-userscripts";
 import { defineConfig } from "eslint/config";
 
 export default defineConfig([
@@ -26,5 +27,21 @@ export default defineConfig([
     plugins: { markdown },
     language: "markdown/gfm",
     extends: ["markdown/recommended"],
+  },
+  {
+    files: ["**/*.users.js"],
+    plugins: {
+      userscripts: {
+        rules: userscripts.rules,
+      },
+    },
+    rules: {
+      ...userscripts.configs.recommended.rules,
+    },
+    settings: {
+      userscriptVersions: {
+        violentmonkey: "*",
+      },
+    },
   },
 ]);
