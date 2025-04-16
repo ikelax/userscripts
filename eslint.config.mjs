@@ -29,7 +29,7 @@ export default defineConfig([
     extends: ["markdown/recommended"],
   },
   {
-    files: ["**/*.users.js"],
+    files: ["**/*.js"],
     plugins: {
       userscripts: {
         rules: userscripts.rules,
