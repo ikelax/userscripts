@@ -18,7 +18,8 @@
     "prepare": "husky",
     "prettier:format": "npx prettier . --write",
     "prettier:check": "npx prettier . --check",
-    "lint": "npx eslint ."
+    "lint": "npx eslint .",
+    "lint:fix": "npx eslint --fix ."
   },
   "author": "Alexander Ikonomou",
   "license": "MIT",

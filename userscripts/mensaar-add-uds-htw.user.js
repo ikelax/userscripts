@@ -1,38 +1,42 @@
 // ==UserScript==
-// @name        Mensaar
-// @namespace   Violentmonkey Scripts
-// @match       https://mensaar.de/
-// @grant       none
-// @version     0.1.0
-// @author      Alexander Ikonomou
-// @description 13/04/2025, 23:29:17
+// @name         Mensaar
+// @namespace    Violentmonkey Scripts
+// @match        https://mensaar.de/
+// @grant        none
+// @version      0.1.0
+// @author       Alexander Ikonomou
+// @description  13/04/2025, 23:29:17
 // ==/UserScript==
 
-const navbar = document.querySelector('[class="mr-auto navbar-nav"]');
-const mensaarUrl = "https://mensaar.de/#/menu/";
+(() => {
+  "use strict";
 
-addMensa("UdS", "sb");
-addMensa("HTW", "htwcas");
+  const navbar = document.querySelector('[class="mr-auto navbar-nav"]');
+  const mensaarUrl = "https://mensaar.de/#/menu/";
 
-if (navbar != null) {
-  return;
-}
+  addMensa("UdS", "sb");
+  addMensa("HTW", "htwcas");
 
-function addMensa(title, location) {
-  const mensa = document.createElement("a");
+  if (navbar != null) {
+    return;
+  }
 
-  var titleNode = document.createTextNode(title);
-  mensa.appendChild(titleNode);
+  function addMensa(title, location) {
+    const mensa = document.createElement("a");
 
-  // Just for consistency
-  mensa.href = mensaarUrl + location;
-  mensa.classList.add("nav-link", "active");
-  mensa.addEventListener("click", () => goToMenu(location));
+    var titleNode = document.createTextNode(title);
+    mensa.appendChild(titleNode);
 
-  navbar.appendChild(mensa);
-}
+    // Just for consistency
+    mensa.href = mensaarUrl + location;
+    mensa.classList.add("nav-link", "active");
+    mensa.addEventListener("click", () => goToMenu(location));
 
-function goToMenu(location) {
-  window.location.href = mensaarUrl + location;
-  window.location.reload();
-}
+    navbar.appendChild(mensa);
+  }
+
+  function goToMenu(location) {
+    window.location.href = mensaarUrl + location;
+    window.location.reload();
+  }
+})();
