@@ -4,7 +4,7 @@
 // @match          https://cms.sic.saarland/*
 // @exclude-match  https://cms.sic.saarland/system/*
 // @grant          none
-// @version        0.1.0
+// @version        0.2.0
 // @author         Alexander Ikonomou
 // @description    14/04/2025, 17:27:34
 // ==/UserScript==
