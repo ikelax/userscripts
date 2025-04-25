@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name           CMS Materials
+// @name           Add materials to CMS navigation bar
 // @namespace      Violentmonkey Scripts
 // @match          https://cms.sic.saarland/*
 // @exclude-match  https://cms.sic.saarland/system/*
