@@ -9,7 +9,7 @@
 // @description    14/04/2025, 17:27:34
 // ==/UserScript==
 
-() => {
+(() => {
   "use strict";
 
   const navbar = document.querySelector("#navbar-main");
@@ -32,4 +32,4 @@
   link.appendChild(text);
   item.appendChild(link);
   navbar.appendChild(item);
-};
+})();
