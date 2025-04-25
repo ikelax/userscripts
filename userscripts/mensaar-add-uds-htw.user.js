@@ -3,7 +3,7 @@
 // @namespace    Violentmonkey Scripts
 // @match        https://mensaar.de/
 // @grant        none
-// @version      0.1.0
+// @version      0.2.0
 // @author       Alexander Ikonomou
 // @description  13/04/2025, 23:29:17
 // ==/UserScript==
