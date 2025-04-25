@@ -8,10 +8,21 @@
 // @description  25/04/2025, 15:32:45
 // ==/UserScript==
 
-waitForKeyElements("div.all-counters-closed", showNextDay);
+waitForKeyElements("div.active", showNextDay);
 
-function showNextDay() {
-  document.querySelector("div.active")?.nextSibling?.click();
+function showNextDay(activeTab) {
+  let now = new Date();
+  let closeDate = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDay(),
+    14,
+    30,
+  );
+
+  if (now - closeDate >= 0) {
+    activeTab.nextSibling?.click();
+  }
 }
 
 // The code was copied from https://github.com/CoeJoder/waitForKeyElements.js.
