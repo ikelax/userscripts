@@ -15,7 +15,10 @@
     "prettier": "3.5.3"
   },
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "prettier:format": "npx prettier . --write",
+    "prettier:check": "npx prettier . --check",
+    "lint": "npx eslint ."
   },
   "author": "Alexander Ikonomou",
   "license": "MIT",
