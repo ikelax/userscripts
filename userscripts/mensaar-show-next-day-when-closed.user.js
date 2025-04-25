@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Show next day when Mensa has closed
+// @name         Show next day when canteen has closed
 // @namespace    Violentmonkey Scripts
 // @match        https://mensaar.de/
 // @grant        none
@@ -11,7 +11,7 @@
 waitForKeyElements("div.all-counters-closed", showNextDay);
 
 function showNextDay() {
-  document.querySelector("div.active").nextSibling.click();
+  document.querySelector("div.active")?.nextSibling?.click();
 }
 
 // The code was copied from https://github.com/CoeJoder/waitForKeyElements.js.
