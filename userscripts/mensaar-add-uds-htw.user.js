@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Mensaar
+// @name         Add UdS and HTW to Mensaar navigation bar
 // @namespace    Violentmonkey Scripts
 // @match        https://mensaar.de/
 // @grant        none

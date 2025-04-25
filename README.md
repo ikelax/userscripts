@@ -1,3 +1,5 @@
 # Userscripts
 
-Userscripts that are only useful if you study at the Saarland University.
+Userscripts to add functionality to pages of the Saarland University.
+
+## Installation
