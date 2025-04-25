@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Mensaar show next day
+// @name         Show next day when Mensa has closed
 // @namespace    Violentmonkey Scripts
 // @match        https://mensaar.de/
 // @grant        none
