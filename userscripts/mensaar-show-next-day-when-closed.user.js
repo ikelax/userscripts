@@ -15,6 +15,7 @@
 // @homepage         https://github.com/ikelax/userscripts
 // @contributionURL  https://github.com/ikelax/userscripts
 // @collaborator     ikelax
+// @icon             https://mensaar.de/img/icon.png
 // ==/UserScript==
 
 waitForKeyElements("div.active", showNextDay);

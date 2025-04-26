@@ -16,6 +16,7 @@
 // @homepage         https://github.com/ikelax/userscripts
 // @contributionURL  https://github.com/ikelax/userscripts
 // @collaborator     ikelax
+// @icon             https://cms.sic.saarland/system/theme/Sic/img/favicon.png
 // ==/UserScript==
 
 (() => {
