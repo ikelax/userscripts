@@ -4,7 +4,9 @@ Userscripts to add functionality to pages of the Saarland University.
 
 ## Installation
 
-1. Make sure you have user scripts enabled in your browser (these instructions refer to the latest versions of the browser):
+1. Make sure you have user scripts enabled in your browser
+   (these instructions refer to the latest versions of the
+   browser):
 
    - [Tampermonkey](https://www.tampermonkey.net/) (proprietary)
    - [Violentmonkey](https://violentmonkey.github.io/get-it/)
@@ -12,10 +14,17 @@ Userscripts to add functionality to pages of the Saarland University.
 
 2. Get information or install:
 
-   - Learn more about the userscript by clicking on the named link. You will be taken to the specific documentation page.
-   - Install a script directly from GitHub by clicking on the "install" link in the table below.
-   - Install a script from [GreasyFork](https://greasyfork.org/en/users/24847-mottie) (GF) from the userscript site page
-   - Or, install the scripts from [OpenUserJS](https://openuserjs.org/users/Mottie/scripts) (OU).<br><br>
+   - Learn more about the userscript by clicking on the
+     named link. You will be taken to the specific
+     documentation page.
+   - Install a script directly from GitHub by clicking on
+     the "install" link in the table below.
+   - Install a script from
+     [GreasyFork](https://greasyfork.org/en/users/24847-mottie)
+     (GF) from the userscript site page
+   - Or, install the scripts from
+     [OpenUserJS](https://openuserjs.org/users/Mottie/scripts)
+     (OU).<br><br>
 
    | Userscript Documentation            |   Direct Install    |            Sites            |
    | ----------------------------------- | :-----------------: | :-------------------------: |
@@ -38,7 +47,10 @@ Userscripts to add functionality to pages of the Saarland University.
 
 ## Updating
 
-Userscripts are set up to automatically update. You can check for updates from within the Greasemonkey or Tampermonkey menu, or click on the install link again to get the update.
+Userscripts are set up to automatically update. You can
+check for updates from within the Greasemonkey or
+Tampermonkey menu, or click on the install link again to get
+the update.
 
 ## Issues
 
@@ -51,3 +63,13 @@ If you would like to contribute to this repository, please...
 1. Fork
 2. Make changes
 3. Create a pull request!
+
+### Markdownlint
+
+To run `markdownlint` locally, you have to install
+[`markdownlint-cli2`](https://github.com/DavidAnson/markdownlint-cli2)
+and run
+
+```sh
+markdownlint-cli2 --fix "**/*.md" "#node_modules"
+```
