@@ -5,4 +5,4 @@ and HTW to the navigation bar.
 
 ## Screenshot
 
-![](../images/mnuh.png)
+![Location of UdS and HTW links](../images/mnuh.png)

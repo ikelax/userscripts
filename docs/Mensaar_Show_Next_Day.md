@@ -10,4 +10,4 @@ to determine this.
 
 ## Screenshot
 
-![](../images/msnd.png)
+![Location of the tabs for the meal plans](../images/msnd.png)

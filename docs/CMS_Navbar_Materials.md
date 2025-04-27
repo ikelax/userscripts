@@ -5,4 +5,4 @@ current course to the navigation bar.
 
 ## Screenshot
 
-![](../images/cnm.png)
+![Location of materials link](../images/cnm.png)
