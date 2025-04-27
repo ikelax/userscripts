@@ -6,7 +6,7 @@
 // @exclude-match    https://cms.sic.saarland/system/*
 // @exclude-match    https://cms.cispa.saarland/system/*
 // @grant            none
-// @version          0.4.1
+// @version          0.4.0
 // @author           Alexander Ikonomou
 // @description      A userscript that adds a link to the materials of the current course to the navigation bar
 // @license          MIT
