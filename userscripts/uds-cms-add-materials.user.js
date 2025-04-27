@@ -2,7 +2,9 @@
 // @name             CMS Navbar Materials
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://cms.sic.saarland/*
+// @match            https://cms.cispa.saarland/*
 // @exclude-match    https://cms.sic.saarland/system/*
+// @exclude-match    https://cms.cispa.saarland/system/*
 // @grant            none
 // @version          0.3.1
 // @author           Alexander Ikonomou
