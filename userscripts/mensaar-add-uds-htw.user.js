@@ -3,14 +3,14 @@
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://mensaar.de/
 // @grant            none
-// @version          0.3.0
+// @version          0.3.1
 // @author           Alexander Ikonomou
 // @description      A userscript that adds links to the meal plans of the UdS and HTW to the navigation bar
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
 // @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/main/userscripts/mensaar-add-uds-htw.user.js
 // @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/main/userscripts/mensaar-add-uds-htw.user.js
-// @copyright        2025, Alexander Ikonomou (https://github.com/ikelax/userscripts)
+// @copyright        2025, Alexander Ikonomou (https://github.com/ikelax)
 // @homepageURL      https://github.com/ikelax/userscripts
 // @homepage         https://github.com/ikelax/userscripts
 // @contributionURL  https://github.com/ikelax/userscripts
