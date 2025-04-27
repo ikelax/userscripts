@@ -3,10 +3,14 @@ name: CI
 permissions:
   contents: read
 
-on: push
+on:
+  push:
+    branches:
+      - master
+  pull_request:
 
 jobs:
-  build:
+  markdownlint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
