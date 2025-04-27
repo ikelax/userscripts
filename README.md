@@ -35,9 +35,9 @@ Userscripts to add functionality to pages of the Saarland University.
 [mnuh-docs]: docs/Mensaar_Navbar_UdS_HTW.md
 [msnd-docs]: docs/Mensaar_Show_Next_Day.md
 [cnm-docs]: docs/CMS_Navbar_Materials.md
-[mnuh-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/main/userscripts/mensaar-add-uds-htw.user.js
-[msnd-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/main/userscripts/mensaar-show-next-day-when-closed.user.js
-[cnm-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/main/userscripts/uds-cms-add-materials.user.js
+[mnuh-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
+[msnd-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-show-next-day-when-closed.user.js
+[cnm-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/uds-cms-add-materials.user.js
 [mnuh-gf]: https://greasyfork.org/en/scripts/533937-mensaar-navbar-uds-htw
 [msnd-gf]: https://greasyfork.org/en/scripts/533989-mensaar-show-next-day
 [cnm-gf]: https://greasyfork.org/en/scripts/533938-cms-navbar-materials

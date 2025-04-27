@@ -9,8 +9,8 @@
 // @description      A userscript that adds a link to the materials of the current course to the navigation bar
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
-// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/main/userscripts/uds-cms-add-materials.user.js
-// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/main/userscripts/uds-cms-add-materials.user.js
+// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/uds-cms-add-materials.user.js
+// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/uds-cms-add-materials.user.js
 // @copyright        2025, Alexander Ikonomou (https://github.com/ikelax)
 // @homepageURL      https://github.com/ikelax/userscripts
 // @homepage         https://github.com/ikelax/userscripts

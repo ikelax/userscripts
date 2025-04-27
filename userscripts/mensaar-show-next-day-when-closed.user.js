@@ -8,8 +8,8 @@
 // @description      A userscript that switches to the meal plans for the next day when the canteen has already closed for today
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
-// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/main/userscripts/mensaar-show-next-day-when-closed.user.js
-// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/main/userscripts/mensaar-show-next-day-when-closed.user.js
+// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-show-next-day-when-closed.user.js
+// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-show-next-day-when-closed.user.js
 // @copyright        2025, Alexander Ikonomou (https://github.com/ikelax)
 // @homepageURL      https://github.com/ikelax/userscripts
 // @homepage         https://github.com/ikelax/userscripts
