@@ -22,3 +22,6 @@
 - name: "new userscript"
   description: "Adds a new userscript"
   color: "#FBCA04"
+- name: "low prio"
+  description: "This has low priority and will maybe not be done at all."
+  color: "#11E4EC"
