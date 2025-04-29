@@ -21,7 +21,7 @@
 waitForKeyElements("div.active", switchToNextDay);
 
 function switchToNextDay(activeTab) {
-  let activeTabDate = new Date(activeTab);
+  let activeTabDate = new Date(activeTab.innerText);
   let closeDate = new Date(
     activeTabDate.getFullYear(),
     activeTabDate.getMonth(),
