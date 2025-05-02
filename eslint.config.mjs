@@ -14,7 +14,12 @@ export default defineConfig([
   },
   {
     files: ["**/*.{js,mjs,cjs}"],
-    languageOptions: { globals: globals.browser },
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        GM_addStyle: "readonly",
+      },
+    },
   },
   {
     files: ["**/*.json"],
