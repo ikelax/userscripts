@@ -32,7 +32,7 @@ them add functionality to pages of the Saarland University.
    | [Mensaar Navbar UdS HTW][mnuh-docs]   | [install][mnuh-raw] | [GF][mnuh-gf] [OU][mnuh-ou] |
    | [Mensaar Show Next Day][msnd-docs]    | [install][msnd-raw] | [GF][msnd-gf] [OU][msnd-ou] |
    | [CMS Navbar Materials][cnm-docs]      | [install][cnm-raw]  |  [GF][cnm-gf] [OU][cnm-ou]  |
-   | [YouTube Five Videos in Row][yt-docs] |  [install][yt-raw]  |            GF OU            |
+   | [YouTube Five Videos in Row][yt-docs] |  [install][yt-raw]  |   [GF][yt-gf] [OU][yt-ou]   |
 
 [mnuh-docs]: docs/Mensaar_Navbar_UdS_HTW.md
 [msnd-docs]: docs/Mensaar_Show_Next_Day.md
@@ -45,9 +45,11 @@ them add functionality to pages of the Saarland University.
 [mnuh-gf]: https://greasyfork.org/en/scripts/533937-mensaar-navbar-uds-htw
 [msnd-gf]: https://greasyfork.org/en/scripts/533989-mensaar-show-next-day
 [cnm-gf]: https://greasyfork.org/en/scripts/533938-cms-navbar-materials
+[yt-gf]: https://greasyfork.org/en/scripts/534750-youtube-five-videos-in-row
 [mnuh-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Navbar_UdS_HTW
 [msnd-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Show_Next_Day
 [cnm-ou]: https://openuserjs.org/scripts/ikelax/CMS_Navbar_Materials
+[yt-ou]: https://openuserjs.org/scripts/ikelax/YouTube_Five_Videos_in_Row
 
 ## Updating
 
