@@ -2,7 +2,7 @@
 // @name             YouTube Five Videos in Row
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://www.youtube.com/
-// @grant            none
+// @grant            GM_addStyle
 // @version          0.1.0
 // @author           Alexander Ikonomou
 // @description      A userscript that changes the style of YouTube's homepage such that five videos are shown in a row instead of three
@@ -16,7 +16,6 @@
 // @contributionURL  https://github.com/ikelax/userscripts
 // @collaborator     ikelax
 // @icon             https://img.icons8.com/bubbles/100/youtube-squared.png
-// @grant            GM_addStyle
 // @run-at           document-start
 // ==/UserScript==
 
