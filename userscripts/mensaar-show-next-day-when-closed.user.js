@@ -3,7 +3,7 @@
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://mensaar.de/
 // @grant            none
-// @version          0.2.3
+// @version          0.2.4
 // @author           Alexander Ikonomou
 // @description      A userscript that switches to the meal plans for the next day when the canteen has already closed for today
 // @license          MIT
@@ -21,7 +21,13 @@
 waitForKeyElements("div.active", switchToNextDay);
 
 function switchToNextDay(activeTab) {
-  let activeTabDate = new Date(activeTab.innerText);
+  const tabDate = convertDate(activeTab.innerText);
+
+  if (tabDate == undefined) {
+    return;
+  }
+
+  let activeTabDate = new Date(tabDate);
   let closeDate = new Date(
     activeTabDate.getFullYear(),
     activeTabDate.getMonth(),
@@ -114,4 +120,26 @@ function waitForKeyElements(
       );
     }, interval);
   }
+}
+
+/**
+ * Converts a German date in the format "Weekday, Day. Month
+ * Year" to "Day. Month Year", translating the month into
+ * English.
+ *
+ * @param {string} date The date string to convert
+ * @returns The converted date string
+ */
+function convertDate(date) {
+  const germanDate = date.split(", ")[1];
+
+  return germanDate
+    ?.replace("Januar", "January")
+    ?.replace("Februar", "February")
+    ?.replace("März", "March")
+    ?.replace("Mai", "May")
+    ?.replace("Juni", "June")
+    ?.replace("Juli", "July")
+    ?.replace("Oktober", "October")
+    ?.replace("Dezember", "December");
 }
