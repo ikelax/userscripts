@@ -28,6 +28,12 @@ function switchToNextDay(activeTab) {
   }
 
   let activeTabDate = new Date(tabDate);
+  let now = new Date();
+
+  if (now - activeTabDate <= 0) {
+    return;
+  }
+
   let closeDate = new Date(
     activeTabDate.getFullYear(),
     activeTabDate.getMonth(),
@@ -35,8 +41,6 @@ function switchToNextDay(activeTab) {
     14,
     30,
   );
-
-  let now = new Date();
 
   if (now - closeDate >= 0) {
     activeTab.nextSibling?.click();
