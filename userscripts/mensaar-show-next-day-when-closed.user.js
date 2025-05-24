@@ -3,7 +3,7 @@
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://mensaar.de/
 // @grant            none
-// @version          0.2.4
+// @version          0.2.5
 // @author           Alexander Ikonomou
 // @description      A userscript that switches to the meal plans for the next day when the canteen has already closed for today
 // @license          MIT
