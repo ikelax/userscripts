@@ -28,21 +28,11 @@ function switchToNextDay(activeTab) {
   }
 
   let activeTabDate = new Date(tabDate);
+  let closeDate = new Date(activeTabDate.getTime() + 14.5 * 60 * 60000); // add 14.5 hours for the time 2:30 pm
+
   let now = new Date();
 
-  if (now - activeTabDate <= 0) {
-    return;
-  }
-
-  let closeDate = new Date(
-    activeTabDate.getFullYear(),
-    activeTabDate.getMonth(),
-    activeTabDate.getDay(),
-    14,
-    30,
-  );
-
-  if (now - closeDate >= 0) {
+  if (now > closeDate) {
     activeTab.nextSibling?.click();
   }
 }
