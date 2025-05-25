@@ -1,15 +1,15 @@
 // ==UserScript==
-// @name             Mensaar Navbar UdS HTW
+// @name             Mensaar Navbar Canteens
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://mensaar.de/
 // @grant            none
-// @version          0.3.1
+// @version          0.4.0
 // @author           Alexander Ikonomou
-// @description      A userscript that adds links to the meal plans of the UdS and HTW to the navigation bar
+// @description      A userscript that adds links to the meal plans of the UdS, HTW and HfM to the navigation bar
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
-// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
-// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
+// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-navbar-canteens.user.js
+// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-navbar-canteens.user.js
 // @copyright        2025, Alexander Ikonomou (https://github.com/ikelax)
 // @homepageURL      https://github.com/ikelax/userscripts
 // @homepage         https://github.com/ikelax/userscripts
@@ -26,6 +26,7 @@
 
   addMensa("UdS", "sb");
   addMensa("HTW", "htwcas");
+  addMensa("HfM", "musiksb");
 
   if (navbar != null) {
     return;
