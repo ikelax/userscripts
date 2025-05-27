@@ -6,7 +6,7 @@
 // @grant            none
 // @version          0.1.0
 // @author           Alexander Ikonomou
-// @description      A userscript that links the avatar on the dashboard to its profile or organization.
+// @description      A userscript that links the avatar on the GitHub dashboard to its profile or organization.
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
 // @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/github-link-dashboard-avatar.user.js
