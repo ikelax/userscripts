@@ -21,10 +21,10 @@ them add functionality to pages of the Saarland University.
    - Install a script directly from GitHub by clicking on
      the "install" link in the table below.
    - Install a script from
-     [GreasyFork](https://greasyfork.org/en/users/24847-mottie)
+     [GreasyFork](https://greasyfork.org/en/users/1462027-ikelax)
      (GF) from the userscript site page
    - Or, install the scripts from
-     [OpenUserJS](https://openuserjs.org/users/Mottie/scripts)
+     [OpenUserJS](https://openuserjs.org/users/ikelax/scripts)
      (OU).<br><br>
 
    | Userscript Documentation                  |   Direct Install    |            Sites            |
