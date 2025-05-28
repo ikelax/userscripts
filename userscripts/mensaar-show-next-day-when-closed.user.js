@@ -3,7 +3,7 @@
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://mensaar.de/
 // @grant            none
-// @version          0.2.5
+// @version          0.2.6
 // @author           Alexander Ikonomou
 // @description      A userscript that switches to the meal plans for the next day when the canteen has already closed for today
 // @license          MIT
@@ -28,8 +28,13 @@ function switchToNextDay(activeTab) {
   }
 
   let activeTabDate = new Date(tabDate);
-  let closeDate = new Date(activeTabDate.getTime() + 14.5 * 60 * 60000); // add 14.5 hours for the time 2:30 pm
-
+  let closeDate = new Date(
+    activeTabDate.getFullYear(),
+    activeTabDate.getMonth(),
+    activeTabDate.getDate(),
+    14,
+    30,
+  );
   let now = new Date();
 
   if (now > closeDate) {
