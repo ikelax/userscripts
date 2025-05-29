@@ -30,15 +30,15 @@ function switchToNextDay(activeTab) {
   let activeTabDate = new Date(tabDate);
   // mensa closes 15 minutes earlier on Fridays
   if (activeTabDate.getDay() == 5) {
-	let closeDate = new Date(
-	  activeTabDate.getFullYear(),
-	  activeTabDate.getMonth(),
-	  activeTabDate.getDate(),
-	  14,
-	  15
-	);  
+    let closeDate = new Date(
+      activeTabDate.getFullYear(),
+      activeTabDate.getMonth(),
+      activeTabDate.getDate(),
+      14,
+      15,
+    );
   } else {
-	let closeDate = new Date(
+    let closeDate = new Date(
       activeTabDate.getFullYear(),
       activeTabDate.getMonth(),
       activeTabDate.getDate(),
