@@ -29,28 +29,28 @@ them add functionality to pages of the Saarland University.
 
    | Userscript Documentation                  |   Direct Install    |            Sites            |
    | ----------------------------------------- | :-----------------: | :-------------------------: |
-   | [Mensaar Navbar UdS HTW][mnuh-docs]       | [install][mnuh-raw] | [GF][mnuh-gf] [OU][mnuh-ou] |
+   | [Mensaar Navbar Canteens][mnc-docs]       | [install][mnc-raw]  |  [GF][mnc-gf] [OU][mnc-ou]  |
    | [Mensaar Show Next Day][msnd-docs]        | [install][msnd-raw] | [GF][msnd-gf] [OU][msnd-ou] |
    | [CMS Navbar Materials][cnm-docs]          | [install][cnm-raw]  |  [GF][cnm-gf] [OU][cnm-ou]  |
    | [YouTube Five Videos in Row][yt-docs]     |  [install][yt-raw]  |   [GF][yt-gf] [OU][yt-ou]   |
    | [GitHub Link Dashboard Avatar][glda-docs] | [install][glda-raw] | [GF][glda-gf] [OU][glda-ou] |
 
-[mnuh-docs]: docs/Mensaar_Navbar_UdS_HTW.md
+[mnc-docs]: docs/Mensaar_Navbar_Canteens.md
 [msnd-docs]: docs/Mensaar_Show_Next_Day.md
 [cnm-docs]: docs/CMS_Navbar_Materials.md
 [yt-docs]: docs/YouTube_Five_Videos_in_Row.md
 [glda-docs]: docs/GitHub_Link_Dashboard_Avatar.md
-[mnuh-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
+[mnc-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
 [msnd-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-show-next-day-when-closed.user.js
 [cnm-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/uds-cms-add-materials.user.js
 [yt-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/youtube-five-videos-in-row.user.js
 [glda-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/github-link-dashboard-avatar.user.js
-[mnuh-gf]: https://greasyfork.org/en/scripts/533937-mensaar-navbar-uds-htw
+[mnc-gf]: https://greasyfork.org/en/scripts/533937-mensaar-navbar-uds-htw
 [msnd-gf]: https://greasyfork.org/en/scripts/533989-mensaar-show-next-day
 [cnm-gf]: https://greasyfork.org/en/scripts/533938-cms-navbar-materials
 [yt-gf]: https://greasyfork.org/en/scripts/534750-youtube-five-videos-in-row
 [glda-gf]: https://greasyfork.org/en/scripts/537452-github-link-dashboard-avatar
-[mnuh-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Navbar_UdS_HTW
+[mnc-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Navbar_UdS_HTW
 [msnd-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Show_Next_Day
 [cnm-ou]: https://openuserjs.org/scripts/ikelax/CMS_Navbar_Materials
 [yt-ou]: https://openuserjs.org/scripts/ikelax/YouTube_Five_Videos_in_Row
