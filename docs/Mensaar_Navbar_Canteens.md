@@ -5,4 +5,4 @@ HTW and HfM to the navigation bar.
 
 ## Screenshot
 
-![Location of the added links](../images/mnuh.png)
+![Location of the added links](../images/mnc.png)
