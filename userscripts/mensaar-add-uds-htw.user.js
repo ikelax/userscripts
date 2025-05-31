@@ -8,8 +8,8 @@
 // @description      A userscript that adds links to the meal plans of the UdS, HTW and HfM to the navigation bar
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
-// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-navbar-canteens.user.js
-// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-navbar-canteens.user.js
+// @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
+// @downloadURL      https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
 // @copyright        2025, Alexander Ikonomou (https://github.com/ikelax)
 // @homepageURL      https://github.com/ikelax/userscripts
 // @homepage         https://github.com/ikelax/userscripts

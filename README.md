@@ -35,7 +35,7 @@ them add functionality to pages of the Saarland University.
    | [YouTube Five Videos in Row][yt-docs]     |  [install][yt-raw]  |   [GF][yt-gf] [OU][yt-ou]   |
    | [GitHub Link Dashboard Avatar][glda-docs] | [install][glda-raw] | [GF][glda-gf] [OU][glda-ou] |
 
-[mnc-docs]: docs/Mensaar_Navbar_UdS_HTW.md
+[mnc-docs]: docs/Mensaar_Navbar_Canteens.md
 [msnd-docs]: docs/Mensaar_Show_Next_Day.md
 [cnm-docs]: docs/CMS_Navbar_Materials.md
 [yt-docs]: docs/YouTube_Five_Videos_in_Row.md
