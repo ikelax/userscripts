@@ -60,4 +60,4 @@ function getClosingTime(dateString) {
   );
 }
 
-module.exports.getClosingTime = getClosingTime;
+exports.getClosingTime = getClosingTime;
