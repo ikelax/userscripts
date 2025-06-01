@@ -1,5 +1,6 @@
 {
   "name": "userscripts",
+  "type": "module",
   "version": "0.1.0",
   "description": "Userscripts that are only useful if you study at the Saarland University.",
   "devDependencies": {
@@ -19,7 +20,8 @@
     "prettier:format": "npx prettier . --write",
     "prettier:check": "npx prettier . --check",
     "lint": "npx eslint .",
-    "lint:fix": "npx eslint --fix ."
+    "lint:fix": "npx eslint --fix .",
+    "test": "node --test './tests/**/*.spec.js'"
   },
   "author": "Alexander Ikonomou",
   "license": "MIT",
