@@ -22,16 +22,18 @@ jobs:
       - name: Spell Check Repo
         uses: crate-ci/typos@v1.32.0
   js:
-    name: Check linting and formatting
+    name: Check formatting and linting and test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 24
       - name: Install dependencies
         run: npm clean-install
       - name: Check formatting with Prettier
         run: npm run prettier:check
-      - name: Code linting with ESLint
+      - name: Check linting with ESLint
         run: npm run lint
+      - name: Test
+        run: npm test
