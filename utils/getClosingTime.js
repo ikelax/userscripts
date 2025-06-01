@@ -40,7 +40,7 @@ function convertDate(date) {
  * canteen for the day or undefined if the date string was
  * not in the expected format
  */
-export function getClosingTime(dateString) {
+function getClosingTime(dateString) {
   const convertedDateString = convertDate(dateString);
 
   if (convertedDateString === undefined) {
@@ -59,3 +59,5 @@ export function getClosingTime(dateString) {
     closingMinutes,
   );
 }
+
+module.exports.getClosingTime = getClosingTime;
