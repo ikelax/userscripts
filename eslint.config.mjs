@@ -18,6 +18,7 @@ export default defineConfig([
       globals: {
         ...globals.browser,
         GM_addStyle: "readonly",
+        waitForKeyElements: "readonly",
       },
     },
   },
