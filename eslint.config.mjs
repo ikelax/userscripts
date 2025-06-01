@@ -18,8 +18,6 @@ export default defineConfig([
       globals: {
         ...globals.browser,
         GM_addStyle: "readonly",
-        require: "readonly",
-        module: "readonly",
       },
     },
   },

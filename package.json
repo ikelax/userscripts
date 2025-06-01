@@ -1,6 +1,6 @@
 {
   "name": "userscripts",
-  "type": "commonjs",
+  "type": "module",
   "version": "0.1.0",
   "description": "Userscripts that are only useful if you study at the Saarland University.",
   "devDependencies": {

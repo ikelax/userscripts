@@ -1,11 +1,6 @@
-const test = require("node:test");
-const describe = test.describe;
-const it = test.it;
-
-const assert = require("node:assert/strict");
-
-const pkg = require("../utils/getClosingTime.js");
-const getClosingTime = pkg.getClosingTime;
+import { describe, it } from "node:test";
+import * as assert from "node:assert/strict";
+import { getClosingTime } from "../utils/getClosingTime.js";
 
 describe("The canteen of the Saarland University", () => {
   it("closes at 14:15 on Fridays", () => {
