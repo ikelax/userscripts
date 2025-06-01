@@ -65,7 +65,7 @@ the update.
 
 ## Issues
 
-Please report any userscript issues within this repository's [issue section](https://github.com/Mottie/GitHub-userscripts/issues).
+Please report any userscript issues within this repository's [issue section](https://github.com/ikelax/userscripts/issues).
 
 ## Contributions
 
