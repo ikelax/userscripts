@@ -8,13 +8,11 @@ them add functionality to pages of the Saarland University.
 1. Make sure you have user scripts enabled in your browser
    (these instructions refer to the latest versions of the
    browser):
-
    - [Tampermonkey](https://www.tampermonkey.net/) (proprietary)
    - [Violentmonkey](https://violentmonkey.github.io/get-it/)
    - [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/)
 
 2. Get information or install:
-
    - Learn more about the userscript by clicking on the
      named link. You will be taken to the specific
      documentation page.
