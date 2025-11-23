@@ -5,7 +5,7 @@
 // @grant            none
 // @version          0.1.0
 // @author           Alexander Ikonomou
-// @description      Adds in battles the rating of the player below the trainersprite.
+// @description      Adds in battles, the rating of the player below its sprite.
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
 // @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/ps-add-rating.user.js
