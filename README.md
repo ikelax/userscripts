@@ -32,17 +32,20 @@ them add functionality to pages of the Saarland University.
    | [CMS Navbar Materials][cnm-docs]          | [install][cnm-raw]  |  [GF][cnm-gf] [OU][cnm-ou]  |
    | [YouTube Five Videos in Row][yt-docs]     |  [install][yt-raw]  |   [GF][yt-gf] [OU][yt-ou]   |
    | [GitHub Link Dashboard Avatar][glda-docs] | [install][glda-raw] | [GF][glda-gf] [OU][glda-ou] |
+   | [\[PS\] Add Rating][psr-docs]             | [install][psr-raw]  |  [GF][psr-gf] [OU][psr-ou]  |
 
 [mnc-docs]: docs/Mensaar_Navbar_Canteens.md
 [msnd-docs]: docs/Mensaar_Show_Next_Day.md
 [cnm-docs]: docs/CMS_Navbar_Materials.md
 [yt-docs]: docs/YouTube_Five_Videos_in_Row.md
 [glda-docs]: docs/GitHub_Link_Dashboard_Avatar.md
+[psr-docs]: docs/PS_Add_Rating.md
 [mnc-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
 [msnd-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/mensaar-show-next-day-when-closed.user.js
 [cnm-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/uds-cms-add-materials.user.js
 [yt-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/youtube-five-videos-in-row.user.js
 [glda-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/github-link-dashboard-avatar.user.js
+[psr-raw]: https://github.com/ikelax/userscripts/raw/refs/heads/master/userscripts/ps-add-rating.user.js
 [mnc-gf]: https://greasyfork.org/en/scripts/533937-mensaar-navbar-uds-htw
 [msnd-gf]: https://greasyfork.org/en/scripts/533989-mensaar-show-next-day
 [cnm-gf]: https://greasyfork.org/en/scripts/533938-cms-navbar-materials
