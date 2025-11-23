@@ -51,11 +51,14 @@ them add functionality to pages of the Saarland University.
 [cnm-gf]: https://greasyfork.org/en/scripts/533938-cms-navbar-materials
 [yt-gf]: https://greasyfork.org/en/scripts/534750-youtube-five-videos-in-row
 [glda-gf]: https://greasyfork.org/en/scripts/537452-github-link-dashboard-avatar
+[psr-gf]: https://greasyfork.org/en/scripts/556668-ps-add-rating
 [mnc-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Navbar_Canteens
 [msnd-ou]: https://openuserjs.org/scripts/ikelax/Mensaar_Show_Next_Day
 [cnm-ou]: https://openuserjs.org/scripts/ikelax/CMS_Navbar_Materials
 [yt-ou]: https://openuserjs.org/scripts/ikelax/YouTube_Five_Videos_in_Row
 [glda-ou]: https://openuserjs.org/scripts/ikelax/GitHub_Link_Dashboard_Avatar
+
+[psr-ou]: https://openuserjs.org/scripts/ikelax/[PS]_Add_Rating
 
 ## Updating
 
