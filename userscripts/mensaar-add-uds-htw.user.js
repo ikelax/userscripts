@@ -3,9 +3,9 @@
 // @namespace        https://github.com/ikelax/userscripts
 // @match            https://mensaar.de/
 // @grant            none
-// @version          0.4.0
+// @version          0.5.0
 // @author           Alexander Ikonomou
-// @description      A userscript that adds links to the meal plans of the UdS, HTW and HfM to the navigation bar
+// @description      A userscript that adds links to the meal plans of the UdS, HTW, HfM and Mensagarten to the navigation bar
 // @license          MIT
 // @supportURL       https://github.com/ikelax/userscripts/issues
 // @updateURL        https://raw.githubusercontent.com/ikelax/userscripts/refs/heads/master/userscripts/mensaar-add-uds-htw.user.js
@@ -27,6 +27,7 @@
   addMensa("UdS", "sb");
   addMensa("HTW", "htwcas");
   addMensa("HfM", "musiksb");
+  addMensa("MG", "mensagarten");
 
   if (navbar != null) {
     return;

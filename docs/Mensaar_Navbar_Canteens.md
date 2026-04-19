@@ -1,7 +1,7 @@
 # Mensaar Navbar Canteens
 
 A userscript that adds links to the meal plans of the UdS,
-HTW and HfM to the navigation bar.
+HTW, HfM and Mensagarten to the navigation bar.
 
 ## Screenshot
 
