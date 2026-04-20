@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name             YouTube Five Videos in Row
 // @namespace        https://github.com/ikelax/userscripts
-// @match            https://www.youtube.com/
+// @match            https://www.youtube.com/*
 // @grant            GM_addStyle
 // @version          0.1.0
 // @author           Alexander Ikonomou
@@ -27,6 +27,7 @@
       div {
         --ytd-rich-grid-items-per-row: 5 !important;
         --ytd-rich-grid-posts-per-row: 5 !important;
+        --ytd-watch-flexy-sidebar-width: 400px !important;
     }
     `,
   );
