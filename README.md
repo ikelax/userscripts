@@ -57,7 +57,6 @@ them add functionality to pages of the Saarland University.
 [cnm-ou]: https://openuserjs.org/scripts/ikelax/CMS_Navbar_Materials
 [yt-ou]: https://openuserjs.org/scripts/ikelax/YouTube_Five_Videos_in_Row
 [glda-ou]: https://openuserjs.org/scripts/ikelax/GitHub_Link_Dashboard_Avatar
-
 [psr-ou]: https://openuserjs.org/scripts/ikelax/[PS]_Add_Rating
 
 ## Updating
